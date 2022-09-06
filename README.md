@@ -27,7 +27,8 @@ Para essa entrega desenvolvemos um simulador de sala de aula, onde temos agentes
 
 
 ## Instalação
-### JADE
+**Linguagens:** Java <br>
+**Tecnologias:** JADE
 
 Inicialmente é necessario a instalação da plataforma JADE. Para isso utilizamos as orientações da professora para instalação no Linux disponíveis no Aprender da disciplina de Paradigmas.
 
