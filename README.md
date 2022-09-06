@@ -27,8 +27,25 @@ Para essa entrega desenvolvemos um simulador de sala de aula, onde temos agentes
 
 
 ## Instalação
+### JADE
+
+Inicialmente é necessario a instalação da plataforma JADE. Para isso utilizamos as orientações da professora de instalação no Linux disponíveis no Aprender da disciplina de Paradigmas.
+
+Clone este repositório:
+
+```
+$ git clone <https://github.com/UnBParadigmas2022-1/2022.1_G1_SMA_SimuladorSalaDeAula.git>
+``` 
+Instale o Eclipse no Linux com os seguintes comandos:
+```
+$ sudo snap install --classic eclipse
+$ sudo apt update
+$ sudo apt install default-jre
+
+``` 
 
 ## Uso
+
 
 # Vídeo
 [![Watch the video](https://user-images.githubusercontent.com/38709421/188527962-60968fed-3bf7-4db4-8701-2e161e7f3e9d.png)](https://www.youtube.com/watch?v=YmsYeVD6VwU)
