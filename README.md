@@ -17,7 +17,7 @@
 | 19/0048760 | Wellington Jonathan de Souza Rodrigues |
 
 ## Sobre
-Para essa entrega desenvolvemos um simulador de sala de aula, onde temos agentes do tipo Professor e Aluno. Para o agente Aluno temos diferentes categorias de alunos, por exemplo, o aluno Nerd, o aluno conversador, entre outros, e cada categoria de aluno possui comportamentos particulares. Já o agente Professor dispara uma série de ações como por exemplo chamar a atenção de uma aluno conversador, dar aula com conteúdo interessante entre outros. Cada comportamento do agente aluno responderá conforme as ações do agente Professor.
+Para essa entrega desenvolvemos um simulador de sala de aula, onde temos agentes do tipo Professor e Aluno. Para o agente Aluno temos diferentes categorias de alunos, por exemplo, o aluno Nerd, o aluno conversador, entre outros, e cada categoria de aluno possui comportamentos particulares. Já o agente Professor dispara uma série de ações como por exemplo chamar a atenção de um aluno conversador, dar aula com conteúdo interessante entre outros. Cada comportamento do agente aluno responderá conforme as ações do agente Professor.
 
 ## Screenshots
 
@@ -29,7 +29,7 @@ Para essa entrega desenvolvemos um simulador de sala de aula, onde temos agentes
 ## Instalação
 ### JADE
 
-Inicialmente é necessario a instalação da plataforma JADE. Para isso utilizamos as orientações da professora de instalação no Linux disponíveis no Aprender da disciplina de Paradigmas.
+Inicialmente é necessario a instalação da plataforma JADE. Para isso utilizamos as orientações da professora para instalação no Linux disponíveis no Aprender da disciplina de Paradigmas.
 
 Clone este repositório:
 
