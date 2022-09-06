@@ -24,7 +24,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | ---- | - |
 | Arthur Paiva Tavares  | ***** |Boa |
-| Bruno Carmo Nunes  | ***** | Boa |
+| Bruno Carmo Nunes  | Contribui com a criação e integração do swing da aplicação, com a Sófia e a Nathália. Comunicação dos alunos e professores com o agente de interface. Passando atributos como status, tipo de aluno, nome do aluno, nota que modificam a ter essa mudança de comportamentos. | Excelente |
 | Gabriel Batista Albino Silva |*****|Boa |
 | Nathalia Lorena Cardoso Dias  | ***** | Boa |
 | Nicolas Georgeos Mantzos  |*****| Boa |
@@ -37,7 +37,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 |Nome do Membro | Comentário | 
 | -- | ---- |
 | Arthur Paiva Tavares  |***** |
-| Bruno Carmo Nunes  | ***** |
+| Bruno Carmo Nunes  | Achei bem menos trabalhoso do que os últimos trabalhos. Sendo que não é muito tranquilo trabalhar com multiagentes, porém já tive contato antes com o Java, o que facilitou muito a implementação do paradigma. Gostei muito de integrar a nossa aplicação com o Swing, e foi bem divertido ver os bugs/features novas que eram geradas na tela. Muitas coisas foram modificadas, em relação a criação de um próprio agente para a interface, mudança de tempo para intervalos do professor e etc. Por fim, gostei muito desse paradigma o que me deixa feliz de tentar usa-lo futuramente. |
 | Gabriel Batista Albino Silva |*****|
 | Nathalia Lorena Cardoso Dias  |*****|
 | Nicolas Georgeos Mantzos  | *****   |
