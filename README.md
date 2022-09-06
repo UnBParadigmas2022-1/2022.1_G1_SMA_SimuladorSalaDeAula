@@ -21,6 +21,11 @@ Para essa entrega desenvolvemos um simulador de sala de aula, onde temos agentes
 
 ## Screenshots
 
+![1](https://user-images.githubusercontent.com/38087662/188534445-1f374cfb-068b-4cb2-97ca-e414b61e210b.png)
+![2](https://user-images.githubusercontent.com/38087662/188534465-65e1ee55-305b-4759-8481-a53f9e1f2f08.png)
+![3](https://user-images.githubusercontent.com/38087662/188534494-37de77bd-496e-4e4c-8c29-19b32b459d3d.png)
+
+
 ## Instalação
 
 ## Uso
@@ -56,6 +61,8 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Wellington Jonathan de Souza Rodrigues | Trabalhar com o paradigma de multiagentes, me permitiu entender melhor, como se desenvolver um sistema mais próximo do comportamento real, além do fato de ser muito interessante poder observar as trocas de mensagens entre cada agente e como cada um assume um comportamento. Desenvolver esse trabalho foi mais divertido que o dos outros paradigma.                                                                                                                                                                                                                                                                       |
 
 ## Trabalhos Futuros
+
+Pretendemos realizar melhorias nos comportamentos dos agentes Professor e Aluno e criar uma nova categoria de aluno que seria o aluno dorminhoco.
 
 ## Fontes
 
