@@ -25,7 +25,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | -- | ---- | - |
 | Arthur Paiva Tavares  | ***** |Boa |
 | Bruno Carmo Nunes  | Contribui com a criação e integração do swing da aplicação, com a Sófia e a Nathália. Comunicação dos alunos e professores com o agente de interface. Passando atributos como status, tipo de aluno, nome do aluno, nota que modificam a ter essa mudança de comportamentos. | Excelente |
-| Gabriel Batista Albino Silva |Construção da base do projeto (importação das bibliotecas, inicialização do JadeRuntime (para evitar necessidade de configuração de build enviroment), Módulós iniciais com a comunicação basica (mudança básica de conteudos, calculo basico de notas, atualização de informações da interface) a fim de facilitar a implementação assincrona dos demais membros do grupo.|Boa |
+| Gabriel Batista Albino Silva |Construção da base do projeto (importação das bibliotecas, inicialização do JadeRuntime (para evitar necessidade de configuração de build enviroment), Módulós iniciais com a comunicação basica (mudança básica de conteudos, calculo basico de notas, etc) a fim de facilitar a implementação assincrona dos demais membros do grupo.|Boa |
 | Nathalia Lorena Cardoso Dias  | ***** | Boa |
 | Nicolas Georgeos Mantzos  |*****| Boa |
 | Sofia Costa Patrocinio  | Construção da interface junto ao Bruno e a Nathália, criação do agente de interface, que troca informações com os demais agentes, criação e diferenciação de labels para status de aula e alunos, além de nome e nota que atualizam de acordo com os ciclos. | Boa |
