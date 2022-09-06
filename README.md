@@ -29,7 +29,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | Nathalia Lorena Cardoso Dias  | ***** | Boa |
 | Nicolas Georgeos Mantzos  |*****| Boa |
 | Sofia Costa Patrocinio  | Construção da interface junto ao Bruno e a Nathália, criação do agente de interface, que troca informações com os demais agentes, criação e diferenciação de labels para status de aula e alunos, além de nome e nota que atualizam de acordo com os ciclos. | Boa |
-| Wellington Jonathan de Souza Rodrigues  |*****| Boa |
+| Wellington Jonathan de Souza Rodrigues  |Participei no desenvolvimento dos agentes do nosso sistema, em especial no desenvolvimento dos comportamentos específicos de cada aluno. | Boa |
 
 ## Percepções gerais, lições aprendidas, fragilidades superadas...
 A tabela abaixo compila as percepções e lições aprendidas por cada participante no desenvolvimento do segundo módulo do projeto.
