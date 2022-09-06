@@ -42,7 +42,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Nathalia Lorena Cardoso Dias  |*****|
 | Nicolas Georgeos Mantzos  | *****   |
 | Sofia Costa Patrocinio  | Trabalhar com multiagentes foi interesssante, a mentalidade de um existir independente de outro é ótima para problemas mais complexos. O Swing GUI Designer facilitou bastante a construção da interface e a configuração no Eclipse foi bem intuitiva.  |
-| Wellington Jonathan de Souza Rodrigues  |***** |
+| Wellington Jonathan de Souza Rodrigues  |Trabalhar com  o paradigma de multiagentes, me  permitiu entender melhor, como se desenvolver um sistema mais próximo do comportamento real, além do  fato de ser muito interessante poder observar as trocas de mensagens entre cada agente e como cada um assume um comportamento. Desenvolver esse trabalho foi mais divertido que  o dos outros paradigma. |
 
 ## Trabalhos Futuros
 
