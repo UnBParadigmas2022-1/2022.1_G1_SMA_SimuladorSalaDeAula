@@ -29,9 +29,6 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.BevelBorder;
 
-/**
-   This is the GUI of the agent that tries to sell books on behalf of its user
- */
 public class OferecedorAgentGui extends JFrame {
 	
 	private OferecedorAgent agente;
@@ -66,10 +63,7 @@ public class OferecedorAgentGui extends JFrame {
 		rootPanel.setLayout(new GridBagLayout());
 	    rootPanel.setMinimumSize(new Dimension(330, 125));
 	    rootPanel.setPreferredSize(new Dimension(330, 125));
-			
-	    ///////////
-	    // Line 0
-	    ///////////
+		
 		JLabel l = new JLabel("Nome jogador ");
 	    l.setHorizontalAlignment(SwingConstants.LEFT);
 	    GridBagConstraints gridBagConstraints = new GridBagConstraints();
@@ -90,9 +84,6 @@ public class OferecedorAgentGui extends JFrame {
 	    gridBagConstraints.insets = new Insets(5, 3, 0, 3);
 	    rootPanel.add(nomeJogadorInput, gridBagConstraints);
 	
-	    ///////////
-	    // Line 1
-	    ///////////
 		l = new JLabel("Nº figurinha ");
 	    l.setHorizontalAlignment(SwingConstants.LEFT);
 	    gridBagConstraints = new GridBagConstraints();
@@ -112,9 +103,6 @@ public class OferecedorAgentGui extends JFrame {
 	    gridBagConstraints.insets = new Insets(5, 3, 0, 3);
 	    rootPanel.add(numeroFigurinhaInput, gridBagConstraints);
 	
-	    ///////////
-	    // Line 2
-	    ///////////
 		l = new JLabel("Raridade mínima:");
 	    l.setHorizontalAlignment(SwingConstants.LEFT);
 	    gridBagConstraints = new GridBagConstraints();

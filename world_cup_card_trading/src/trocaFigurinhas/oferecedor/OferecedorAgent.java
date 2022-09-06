@@ -20,43 +20,23 @@ import java.util.*;
 
 public class OferecedorAgent extends Agent {
 
-	  // The catalogue of books available for sale
 	  private Map catalogue = new HashMap();
 
-	  // The GUI to interact with the user
 	  private OferecedorAgentGui myGui;
-
-	  /** The following parts, where the SLCodec and BookTradingOntology are
-	    * registered, are explained in section 5.1.3.4 page 88 of the book.
-	   **/
 	  private Codec codec = new SLCodec();
 	  private Ontology ontology = OntologiaTrocaFigurinhas.getInstance();
-
-	  /**
-	   * Agent initializations
-	  **/
 	  protected void setup() {
-	    // Printout a welcome message
 	    System.out.println(new StringBuilder(getAID().getName()).append(" esta oferecendo figurinhas"));
 
 	    getContentManager().registerLanguage(codec);
 	    getContentManager().registerOntology(ontology);
 
-	    // Create and show the GUI
 	    myGui = new OferecedorAgentGui();
 	    myGui.setAgent(this);
 	    myGui.show();
 
-	    // Add the behaviour serving calls for price from buyer agents
 	    addBehaviour(new CallForOfferServer());
 
-	    // Add the behaviour serving purchase requests from buyer agents
-	    //addBehaviour(new PurchaseOrderServer());
-
-	    /** This piece of code, to register services with the DF, is explained
-	     * in the book in section 4.4.2.1, page 73
-	    **/
-	    // Register the book-selling service in the yellow pages
 	    DFAgentDescription dfd = new DFAgentDescription();
 	    dfd.setName(getAID());
 	    ServiceDescription sd = new ServiceDescription();
@@ -71,21 +51,12 @@ public class OferecedorAgent extends Agent {
 	    }
 	  }
 
-	  /**
-	   * Agent clean-up
-	  **/
 	  protected void takeDown() {
-	    // Dispose the GUI if it is there
 	    if (Objects.nonNull(myGui)) {
 	      myGui.dispose();
 	    }
 
-	    // Printout a dismissal message
 	    System.out.println("Seller-agent " + getAID().getName() + "terminating.");
-
-	    /** This piece of code, to deregister with the DF, is explained
-	     * in the book in section 4.4.2.1, page 73
-	    **/
 	    try {
 	      DFService.deregister(this);
 	    }
@@ -94,14 +65,6 @@ public class OferecedorAgent extends Agent {
 	    }
 	  }
 
-	  /**
-	   * This method is called by the GUI when the user inserts a new
-	   * book for sale
-	   * @param title The title of the book for sale
-	   * @param initialPrice The initial price
-	   * @param minPrice The minimum price
-	   * @param deadline The deadline by which to sell the book
-	  **/
 	  public void putForSale(String nomeJogador, int numeroFigurinha, int raridadeMinimaInicial, int raridadeMinima) {
 	    addBehaviour(new PriceManager(this, nomeJogador, raridadeMinimaInicial, raridadeMinima, numeroFigurinha));
 	  }
@@ -120,7 +83,6 @@ public class OferecedorAgent extends Agent {
 	    }
 
 	    public void onStart() {
-	      // Insert the book in the catalogue of books available for sale
 	      catalogue.put(numeroFigurinha, this);
 	      super.onStart();
 	    }
@@ -143,7 +105,6 @@ public class OferecedorAgent extends Agent {
 	    }
 
 	    protected ACLMessage handleCfp(ACLMessage cfp) throws RefuseException, FailureException, NotUnderstoodException {
-	      // CFP Message received. Process it
 	      ACLMessage reply = cfp.createReply();
 	      try {
 	        ContentManager cm = myAgent.getContentManager();
@@ -154,7 +115,6 @@ public class OferecedorAgent extends Agent {
 	        PriceManager pm = (PriceManager) catalogue.get(fig.getNumero());
 	        System.out.println(Objects.nonNull(pm));
 	        if (Objects.nonNull(pm)) {
-	          // The requested book is available for sale
 	          reply.setPerformative(ACLMessage.PROPOSE);
 	          ContentElementList cel = new ContentElementList();
 	          cel.add(act);
@@ -166,7 +126,6 @@ public class OferecedorAgent extends Agent {
 	          cm.fillContent(reply, cel);
 	        }
 	        else {
-	          // The requested book is NOT available for sale.
 	          reply.setPerformative(ACLMessage.REFUSE);
 	        }
 	      } catch (OntologyException oe) {

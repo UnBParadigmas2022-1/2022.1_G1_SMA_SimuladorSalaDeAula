@@ -55,9 +55,6 @@ public class RecebedorAgentGui extends JFrame {
 	    rootPanel.setMinimumSize(new Dimension(330, 125));
 	    rootPanel.setPreferredSize(new Dimension(330, 125));
 			
-	    ///////////
-	    // Line 0
-	    ///////////
 		JLabel l = new JLabel("Nome jogador ");
 	    l.setHorizontalAlignment(SwingConstants.LEFT);
 	    GridBagConstraints gridBagConstraints = new GridBagConstraints();
@@ -77,10 +74,7 @@ public class RecebedorAgentGui extends JFrame {
 	    gridBagConstraints.anchor = GridBagConstraints.NORTHWEST;
 	    gridBagConstraints.insets = new Insets(5, 3, 0, 3);
 	    rootPanel.add(nomeJogadorInput, gridBagConstraints);
-	
-	    ///////////
-	    // Line 1
-	    ///////////
+
 		l = new JLabel("Nº figurinha ");
 	    l.setHorizontalAlignment(SwingConstants.LEFT);
 	    gridBagConstraints = new GridBagConstraints();
@@ -99,10 +93,7 @@ public class RecebedorAgentGui extends JFrame {
 	    gridBagConstraints.anchor = GridBagConstraints.NORTHWEST;
 	    gridBagConstraints.insets = new Insets(5, 3, 0, 3);
 	    rootPanel.add(numeroFigurinhaInput, gridBagConstraints);
-	
-	    ///////////
-	    // Line 2
-	    ///////////
+
 		l = new JLabel("Raridade mínima:");
 	    l.setHorizontalAlignment(SwingConstants.LEFT);
 	    gridBagConstraints = new GridBagConstraints();
