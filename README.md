@@ -36,7 +36,7 @@ Clone este repositório:
 ```
 $ git clone <https://github.com/UnBParadigmas2022-1/2022.1_G1_SMA_SimuladorSalaDeAula.git>
 ``` 
-Instale o Eclipse no Linux com os seguintes comandos:
+Instale o Eclipse via terminal Linux com os seguintes comandos:
 ```
 $ sudo snap install --classic eclipse
 $ sudo apt update
@@ -46,6 +46,30 @@ $ sudo apt install default-jre
 
 ## Uso
 
+Primeiramente, importe o projeto no Eclipse.
+
+![photo1662428830](https://user-images.githubusercontent.com/38087662/188537557-c0ba67b2-7178-42ea-b80c-256f99589e11.jpeg)
+```
+Acesse o build path
+``` 
+
+![photo1662428840](https://user-images.githubusercontent.com/38087662/188537578-778adeec-95d1-4ae1-852d-169b260af434.jpeg)
+
+```
+Verifique se a pasta do projeto está no classpath
+``` 
+
+![photo1662428869](https://user-images.githubusercontent.com/38087662/188537595-9350d112-a6ab-4482-a113-17ab9fd6eb88.jpeg)
+
+```
+Verifique se o commons-codecs e o JADE estão nas bibliotecas
+``` 
+
+![photo1662428955](https://user-images.githubusercontent.com/38087662/188537628-8fe4db2c-ab19-4389-964b-14cb2c8f4828.jpeg)
+
+```
+Por fim, clique com o direito na Main e Run as > Java application
+``` 
 
 # Vídeo
 [![Watch the video](https://user-images.githubusercontent.com/38709421/188527962-60968fed-3bf7-4db4-8701-2e161e7f3e9d.png)](https://www.youtube.com/watch?v=YmsYeVD6VwU)
