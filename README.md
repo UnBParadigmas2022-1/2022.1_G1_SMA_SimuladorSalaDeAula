@@ -28,7 +28,7 @@ A tabela abaixo sintetiza, nas palavras do contribuidor, as contribuições acom
 | Gabriel Batista Albino Silva |*****|Boa |
 | Nathalia Lorena Cardoso Dias  | ***** | Boa |
 | Nicolas Georgeos Mantzos  |*****| Boa |
-| Sofia Costa Patrocinio  |***** | Boa |
+| Sofia Costa Patrocinio  | Construção da interface junto ao Bruno e a Nathália, criação do agente de interface, que troca informações com os demais agentes, criação e diferenciação de labels para status de aula e alunos, além de nome e nota que atualizam de acordo com os ciclos. | Boa |
 | Wellington Jonathan de Souza Rodrigues  |*****| Boa |
 
 ## Percepções gerais, lições aprendidas, fragilidades superadas...
@@ -41,7 +41,7 @@ A tabela abaixo compila as percepções e lições aprendidas por cada participa
 | Gabriel Batista Albino Silva |*****|
 | Nathalia Lorena Cardoso Dias  |*****|
 | Nicolas Georgeos Mantzos  | *****   |
-| Sofia Costa Patrocinio  |*****  |
+| Sofia Costa Patrocinio  | Trabalhar com multiagentes foi interesssante, a mentalidade de um existir independente de outro é ótima para problemas mais complexos. O Swing GUI Designer facilitou bastante a construção da interface e a configuração no Eclipse foi bem intuitiva.  |
 | Wellington Jonathan de Souza Rodrigues  |***** |
 
 ## Trabalhos Futuros
